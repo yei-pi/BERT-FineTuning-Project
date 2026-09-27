@@ -1,0 +1,16 @@
+{
+  "task": "SQuAD v1.1",
+  "seed": 42,
+  "training_examples": 15000,
+  "max_length": 384,
+  "doc_stride": 128,
+  "full_fine_tuning": {
+    "exact_match": 72.53547776726585,
+    "f1": 81.74745562989544
+  },
+  "feature_based": {
+    "exact_match": 15.383159886471145,
+    "f1": 24.234021285001567
+  },
+  "losses": "Not reported"
+}
