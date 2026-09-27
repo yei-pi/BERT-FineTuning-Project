@@ -1,0 +1,16 @@
+{
+  "task": "AG News",
+  "seed": 42,
+  "full_fine_tuning": {
+    "training_loss": 0.093669,
+    "validation_loss": 0.234656,
+    "accuracy": 0.9480263157894737,
+    "f1": 0.9480263416206413
+  },
+  "feature_based": {
+    "training_loss": 0.487442,
+    "validation_loss": 0.432036,
+    "accuracy": 0.8473684210526315,
+    "f1": 0.8470025010180878
+  }
+}
