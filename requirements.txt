@@ -1,0 +1,6 @@
+torch
+transformers>=4.45
+datasets>=3.0
+evaluate>=0.4
+accelerate>=0.34
+huggingface_hub>=0.24,<2.0
