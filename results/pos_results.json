@@ -1,0 +1,16 @@
+{
+  "task": "UD English EWT POS Tagging",
+  "seed": 42,
+  "full_fine_tuning": {
+    "training_loss": 0.042513,
+    "validation_loss": 0.115995,
+    "epoch": 3,
+    "accuracy": 0.972323842850326
+  },
+  "feature_based": {
+    "training_loss": 0.260443,
+    "validation_loss": 0.242253,
+    "epoch": 3,
+    "accuracy": 0.9305710195641801
+  }
+}
