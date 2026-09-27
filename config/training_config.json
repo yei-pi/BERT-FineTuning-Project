@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "base_model": "bert-base-uncased",
+  "tasks": {
+    "agnews": {
+      "dataset": "fancyzhx/ag_news",
+      "max_length": 128,
+      "num_labels": 4
+    },
+    "ner": {
+      "dataset": "lhoestq/conll2003",
+      "max_length": 128,
+      "num_labels": 9
+    },
+    "pos": {
+      "dataset": "universal-dependencies/universal_dependencies",
+      "config": "en_ewt",
+      "revision": "2.18",
+      "max_length": 128,
+      "num_labels": 17
+    },
+    "squad": {
+      "dataset": "rajpurkar/squad",
+      "max_length": 384,
+      "doc_stride": 128
+    }
+  },
+  "methods": {
+    "full_finetuning": {
+      "description": "All BERT parameters are trainable",
+      "learning_rate": 0.00002
+    },
+    "feature_based": {
+      "description": "BERT parameters are frozen and only the task head is trainable",
+      "learning_rate": 0.001
+    }
+  }
+}
